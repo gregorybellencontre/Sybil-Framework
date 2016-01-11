@@ -1,4 +1,4 @@
-# Sybil-Framework
+# Sybil Framework
 PHP Framework with MVC architecture
 
 ## Why a new PHP framework ?
