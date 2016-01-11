@@ -1,0 +1,15 @@
+index:
+    path: /
+    target: Index
+    
+accueil:
+    path: /accueil/([0-9]+)/
+    target: Index:accueil
+    
+index2:
+    path: /test/
+    target: Index
+    
+profile:
+    prefix: /index
+    bundle: index

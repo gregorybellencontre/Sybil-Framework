@@ -1,0 +1,7 @@
+"WARNING - You passed a wrong parameter to the skip function (positive integer expected)" : "ERREUR - Un entier positif est attendu comme paramètre de la fonction skip"
+"WARNING - You passed a wrong parameter to the limit function (positive integer expected)" : "ERREUR - Un entier positif est attendu comme paramètre de la fonction limit"
+"WARNING - You passed wrong parameters to the paginate function (positive integers expected for both parameters)" : "ERREUR - Deux entiers positifs sont attendus comme paramètres de la fonction paginate"
+"WARNING - The core file 'core.Pagination.php' is missing. Impossible to manage pagination. Default values returned." : "ERREUR - Le fichier 'core.Pagination.php' est introuvable. Impossible de générer la pagination. Les valeurs par défaut ont été retournées."
+"WARNING - You passed a string to the search function (array expected)" : "ERREUR - Un array est attendu comme paramètre de la fonction search"
+"WARNING - You passed a string to the sort function (array expected)" : "ERREUR - Un array est attendu comme paramètre de la fonction sort"
+"WARNING - You passed a string to the count function (array expected)" : "ERREUR - Un array est attendu comme paramètre de la fonction count"

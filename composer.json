@@ -1,0 +1,20 @@
+{
+    "name": "sybil/framework",
+    "type": "project",
+    "description": "The Sybil Framework distribution",
+    "require": {
+		"symfony/yaml": "2.0.x-dev",
+		"twig/twig": "1.16.*@dev",
+		"swiftmailer/swiftmailer": "5.2.*@dev",
+		"lichtner/fluentpdo": "dev-master"
+    },
+    "autoload": {
+	    "psr-4": { 
+		    "Sybil\\": "vendor/sybil/framework/src/Sybil"
+		}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    }
+}
+ 

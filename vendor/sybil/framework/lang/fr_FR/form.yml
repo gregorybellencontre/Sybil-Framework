@@ -1,0 +1,17 @@
+"This field is required" : "Ce champ est requis"
+"You have to check a minimum of %count% box" : ["Vous devez cocher au minimum %count% case","Vous devez cocher au minimum %count% cases"]
+"%count% checked" : ["%count% cochée","%count% cochées"]
+"The value of this field must match with the previous field one" : "La valeur de ce champ doit correspondre à celle du champ précédent"
+"The value of this field must match with the next field one" : "La valeur de ce champ doit correspondre à celle du champ suivant"
+"Your file is bigger than the authorized size" : "Le poids de votre fichier dépasse la taille autorisée"
+"The format of your file is not authorized" : "Le format de votre fichier (son extension) n'est pas autorisé"
+"Your image does not respect the minimum dimensions" : "Votre image ne respecte pas les dimensions minimum requises"
+"Your image does not respect the maximum dimensions" : "Votre image ne respecte pas les dimensions maximum requises"
+"Form contains validation errors" : "Le formulaire contient des erreurs"
+"Data have been successfully saved" : "Les informations ont été enregistrées"
+"No file selected" : "Aucun fichier sélectionné"
+"No saved file" : "Aucun fichier enregistré"
+"This box must be checked" : "Cette case doit être cochée"
+"Choose a file" : "Choisir un fichier"
+"Save" : "Enregistrer"
+"Reset the form" : "Réinitialiser le formulaire"

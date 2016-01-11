@@ -1,0 +1,36 @@
+###
+# Orygin Framework
+# (c) 2015 Grégory Bellencontre
+#
+# Application parameters
+#
+# You can add your own parameters and retrieve them 
+# using the Framework 'Config' class.
+##
+
+application:
+	secret_key: a8bfe283042f521907a9f7ac88a4c01e
+    namespace: Demo
+    
+    root_directory: 
+    name: Demo
+	theme: default
+	environment: development
+	maintenance: false
+	authorized_ip: null
+
+server:
+	locale: fr_FR
+	timezone: Europe/Paris
+	smtp_server:
+		host: 
+		port: 25
+		address: 
+		password: 
+	
+database:
+	system:mysql
+	host: localhost
+	login: root
+	pass: root
+	dbname: demo

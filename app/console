@@ -1,0 +1,30 @@
+<?php
+/**
+ * Sybil Framework
+ * (c) 2014 Grégory Bellencontre
+ */
+
+require_once('vendor/autoload.php');
+require_once('constants.php');
+
+echo "\n---\n";
+echo "SYBIL FRAMEWORK\n";
+
+$commands_list = [
+	'db:schema:update' => ['Update database schema','DBSchemaUpdate'],
+	'db:schema:reset' => ['Reset schema references','DBSchemaReset']
+];
+
+if (array_key_exists($argv[1], $commands_list)) {
+	echo $commands_list[$argv[1]][0] . "\n\n";
+	call_user_func_array(['Sybil\Command',$commands_list[$argv[1]][1]],[]);
+}
+else {
+	echo "Unknown command. Available commands are listed below :\n\n";
+		
+	foreach($commands_list as $command=>$data) {
+		echo "- " . $command . "\t\t" . $data[0];
+	}
+}
+
+echo "\n";

@@ -1,0 +1,15 @@
+user:
+    _params: { _ref: 6c85a1cf }
+    id: { _ref: d7591ca3, type: integer, length: 11, identifier: true, auto: true }
+    login: { _ref: 2589dec0, type: string, length: 255 }
+    password: { _ref: 9a4482ef, type: string, length: 255, encrypt: true }
+    note: { _ref: e5a952e8, type: float, length: 3, decimal: 2, zerofill: true }
+    role: { _ref: 534dba1e, indexOf: { model: role } }
+role:
+    _params: { _ref: 4598b7c2, alias: user_role }
+    id: { _ref: 9fbd326a, type: integer, length: 11, identifier: true, auto: true }
+    name: { _ref: 7f9cae27, type: string, length: 255 }
+admin:
+    _params: { _ref: 2b6439ea }
+    user: { _ref: cabb84a0, identifier: true, indexOf: { model: user, update: cascade, delete: no_action } }
+    secret_key: { _ref: cacbc15f, type: string, length: 255 }

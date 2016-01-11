@@ -1,0 +1,11 @@
+index:
+    /
+
+accueil:
+    /accueil/([0-9]+)/
+
+index2:
+    /test/
+
+index_index:
+    /index/

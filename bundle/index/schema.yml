@@ -1,0 +1,17 @@
+article:
+    _params: { _ref: 8b381556 }
+    id: { _ref: 87035a3d, type: integer, length: 6, identifier: true, auto: true, zerofill: true }
+    title: { _ref: a0d6eda2, type: string, length: 255 }
+    date: { _ref: c09ad6de, type: datetime }
+    last_update: { _ref: eb4c87d4, type: datetime }
+    author: { _ref: e02b943a, indexOf: { bundle: user, model: user } }
+tag:
+    _params: { _ref: '49426516' }
+    id: { _ref: b85b650d, type: integer, length: 11, identifier: true, auto: true }
+    name: { _ref: 8a423e77 }
+article_tag:
+    _params: { _ref: 4470d975 }
+    article: { _ref: 796c655d, identifier: true, indexOf: { model: article } }
+    tag: { _ref: deaf6c9f, identifier: true, indexOf: { model: tag } }
+    user: { _ref: 04f3c216, identifier: true, indexOf: { bundle: user, model: user } }
+    comment: { _ref: 7c7a1bcf, type: text, default: null }

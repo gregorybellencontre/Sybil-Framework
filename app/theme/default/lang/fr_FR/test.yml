@@ -1,0 +1,1 @@
+"say_hello" : "Bonjour %name%, tu as %count.age% (an|ans,%count.age%)."
